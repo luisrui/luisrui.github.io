@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Rui Cai's perosnal website"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -83,10 +83,10 @@ author:
   name             : "Rui Cai"
   avatar           : "picture.png"
   bio              : "An undergrat majoring in AI at Xi'an Jiaotong University"
-  location         : "Shaanxi Xi'an"
+  location         : "Xi'an Shaanxi"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : #""
+  googlescholar    : #""
   email            : "rc3532@columbia.edu"
   researchgate     : 
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://www.github.com/luisrui"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/cairui6"
   vine             :
   weibo            :
   xing             :
