@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 ## About Me
 I'm a fourth year undergraduate student from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. My research interest includes graph learning, multimodal learning and computer vision. I am currently applying for a PhD. 
 
