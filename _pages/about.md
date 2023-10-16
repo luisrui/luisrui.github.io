@@ -18,5 +18,6 @@ I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineerin
   + GPA 3.97/4.0
   + Main Course: COMS4995 Deep Learning for Computer Vision, EEOR4650 Convex Optimization, ELEN4810 Digital Signal Processing, IEOR4525 Maching Learning OR&FE
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring
+
 ## Experience
 Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, advised by Dr.Dixiao Cui and Hong Zhong.
