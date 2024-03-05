@@ -22,5 +22,8 @@ I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineerin
 
 ## Experience
 Invited as a reviewer for KDD2024.
-Research assistant in HKUST(GZ), supervised by [Prof. Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253).
+
+Research assistant at HKUST(GZ), supervised by [Prof. Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253).
+Research assistant in MINE Lab at University of Notre Dame, supervised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/).
+
 Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, advised by [Dr.Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Hong Zhong.
