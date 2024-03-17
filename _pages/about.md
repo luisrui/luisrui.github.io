@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## About Me
-I'm a fourth year undergraduate student from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. My research interest includes graph learning, multimodal learning and data mining. I am currently applting for PhD program. 
+I'm a fourth year undergraduate student from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. My research interest includes graph learning, multimodal learning and data mining. I am currently applying for PhD program. 
 
 I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) and [Dr. Shichao Pei](https://scpei.github.io/) of MINE Lab from [College of Engineering](https://engineering.nd.edu/), University of Notre Dame. I had a one-semester visit in Columbia University and luckily advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/) and gained a lot form his Convex Optimization course. I spent my wonderful sophomore year advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. I was enrolled in Youth Gifted Program of Xi'an Jiaotong University at 2018, and graduated at 2020.
 ## Education
@@ -24,6 +24,7 @@ I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineerin
 Invited as a reviewer for KDD2024.
 
 Research assistant at HKUST(GZ), supervised by [Prof. Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253).
+
 Research assistant in MINE Lab at University of Notre Dame, supervised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/).
 
 Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, advised by [Dr.Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Hong Zhong.
