@@ -24,7 +24,7 @@ I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineerin
 ## Research
 Zero-Shot Relational Learning for Multimodal Knowledge Graphs [pdf](https://arxiv.org/pdf/2404.06220.pdf)
 
-Masked Face Dataset Generation and Masked Face Recognition [pdf](https://arxiv.org/abs/2311.07475)[code](https://github.com/luisrui/Seeing-AI-system)
+Masked Face Dataset Generation and Masked Face Recognition [pdf](https://arxiv.org/abs/2311.07475) [code](https://github.com/luisrui/Seeing-AI-system)
 
 ## Experience
 Invited as a reviewer for KDD2024.
