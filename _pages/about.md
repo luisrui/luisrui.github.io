@@ -27,7 +27,7 @@ Zero-Shot Relational Learning for Multimodal Knowledge Graphs [pdf](https://arxi
 Masked Face Dataset Generation and Masked Face Recognition [pdf](https://arxiv.org/abs/2311.07475) [code](https://github.com/luisrui/Seeing-AI-system)
 
 ## Experience
-Invited as a reviewer for KDD2024.
+Invited as a reviewer for KDD2024, IJCAI2024.
 
 Research assistant at HKUST(GZ), supervised by [Prof. Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253).
 
