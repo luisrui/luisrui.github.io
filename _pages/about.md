@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## About Me
-I'm an undergraduate student from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. The pronunciation of my name is "Ray Tsai"(You can call me Yanson or Luis). My research interest includes graph learning, multimodal learning and data mining. I am currently applying for PhD program. 
+I'm an undergraduate student from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. The pronunciation of my name is "Ray Tsai"(You can call me Yanson or Luis). My research interest includes graph learning, multimodal learning and data mining. I am an incoming researcher in US.
 
 I am very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) and [Dr. Shichao Pei](https://scpei.github.io/) of MINE Lab from [College of Engineering](https://engineering.nd.edu/), University of Notre Dame. I had a one-semester visit in Columbia University and luckily advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/) and gained a lot form his Convex Optimization course. I spent my wonderful sophomore year advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. I was enrolled in Youth Gifted Program of Xi'an Jiaotong University at 2018, and graduated at 2020.
 
