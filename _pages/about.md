@@ -24,8 +24,7 @@ Email : ruicai [at] ucdavis [dot] edu
 ## Research
 <text color="blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</text>
 
-![paper_pipeline](/images/MRE_pipeline.png width=60%)
-
+<img src="/images/MRE_pipeline.png" width=60%>
 
 Relational learning is an essential task in the domain of knowledge representation, particularly in knowledge graph completion (KGC). 
 While relational learning in traditional single-modal settings has been extensively studied, exploring it within a multimodal KGC context presents distinct challenges and opportunities. One of the major challenges is inference on newly discovered relations without any associated training data. This zero-shot relational learning scenario poses unique requirements for multimodal KGC, i.e., utilizing multimodality to facilitate relational learning. However, existing works fail to support the leverage of multimodal information and leave the problem unexplored. In this paper, we propose a novel end-to-end framework, consisting of three components, i.e., multimodal learner, structure consolidator, and relation embedding generator, to integrate diverse multimodal information and knowledge graph structures to facilitate the zero-shot relational learning. Evaluation results on two multimodal knowledge graphs demonstrate the superior performance of our proposed method. 
