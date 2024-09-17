@@ -24,7 +24,7 @@ Email : ruicai [at] ucdavis [dot] edu
 ## Research
 <text color="blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</text>
 
-![paper_pipeline](/images/MRE_pipeline.png)]
+![paper_pipeline](/images/MRE_pipeline.png)
 
 
 Relational learning is an essential task in the domain of knowledge representation, particularly in knowledge graph completion (KGC). 
