@@ -41,7 +41,7 @@ Email : ruicai [at] ucdavis [dot] edu
   <table style="border-collapse: collapse; border: none; width: 100%;">
     <tr>
       <td width="55%" style="border: none; padding: 0;">
-        <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/master/images/masked_face_pipeline.png" alt="Paper Pipeline" width="100%">
+        <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/master/images/mask_face_pipeline.png" alt="Paper Pipeline" width="100%">
       </td>
       <td width="45%" style="border: none; padding: 0 0 0 20px; vertical-align: middle; text-align: left;">
         <div style="display: inline-block; text-align: left;">
