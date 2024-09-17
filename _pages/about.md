@@ -18,13 +18,13 @@ Email : ruicai [at] ucdavis [dot] edu
 ## Publication
 
 <div align="center">
-  <table>
+  <table style="border-collapse: collapse; border: none;">
     <tr>
-      <td width="55%">
+      <td width="55%" style="border: none; padding: 0;">
         <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/master/images/MRE_pipeline.png" alt="Paper Pipeline" width="100%">
       </td>
-      <td width="45%">
-        <h3>Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
+      <td width="45%" style="border: none; padding: 0 0 0 20px; vertical-align: top;">
+        <h3 style="margin-top: 0;">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
         <p><strong>Authors:</strong> Rui Cai, Shichao Pei, Xiangliang Zhang</p>
         <p>
           <a href="https://arxiv.org/pdf/2404.06220.pdf">Paper</a> / 
