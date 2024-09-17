@@ -57,8 +57,6 @@ Email : ruicai [at] ucdavis [dot] edu
   </table>
 </div>
 
-[arxiv](https://arxiv.org/abs/2311.07475) * [code](https://github.com/luisrui/Seeing-AI-system)
-
 ## Education
 + PhD in Computer Science, University of California, Davis. 2024 Fall - Now
 + B.S. in Artificial Intelligence, Xi’an Jiaotong University, 2020 Fall-2024 Spring, advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) and [Prof. Yuehu Liu]([https://gr.xjtu.edu.cn/en/web/yuehuliu](https://gr.xjtu.edu.cn/en/web/liuyh)) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/)
