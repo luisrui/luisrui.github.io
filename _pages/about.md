@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 ## About Me
-I'm a first year student at [Computer Science Department](https://cs.ucdavis.edu/), [University of California, Davis](https://www.ucdavis.edu/). I received my BS degree in Artificial Intelligence at [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. The pronunciation of my name is "Ray Tsai"(You can call me Yanson or Luis). My research interest includes multimodal machine learning and large language models.
+I'm a first year PhD student at [Computer Science Department](https://cs.ucdavis.edu/), [University of California, Davis](https://www.ucdavis.edu/). I received my B.S. degree in Artificial Intelligence at [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. The pronunciation of my name is "Ray Tsai"(You can call me Yanson or Luis). My research interest includes multimodal machine learning and large language models.
 
 Email : ruicai [at] ucdavis [dot] edu
 
