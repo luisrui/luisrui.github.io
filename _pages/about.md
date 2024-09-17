@@ -18,7 +18,7 @@ Email : ruicai [at] ucdavis [dot] edu
 ## Publication
 <span style="color:blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</span>
 
-<img src=https://github.com/luisrui/luisrui.github.io/edit/master/images/MRE_pipeline.png width=60%>
+<img src=https://github.com/luisrui/luisrui.github.io/blob/master/images/MRE_pipeline.png width=60%>
 
 [arxiv](https://arxiv.org/pdf/2404.06220.pdf)
 
