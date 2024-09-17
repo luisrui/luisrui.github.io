@@ -24,7 +24,7 @@ Email : ruicai [at] ucdavis [dot] edu
 ## Publication
 <span style="color:blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</span>
 
-![image pipeline](/images/MRE_pipeline.png =100x200)
+![image pipeline](/images/MRE_pipeline.png)
 
 
 [arxiv](https://arxiv.org/pdf/2404.06220.pdf)
