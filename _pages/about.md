@@ -21,10 +21,10 @@ Email : ruicai [at] ucdavis [dot] edu
 + Visiting Student in Columbia College, Columbia University, 2022 Fall, advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/)
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring
 
-## Research
+## Publication
 <text color="blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</text>
 
-![image pipeline](/images/MRE_pipeline.png)
+![image pipeline](/images/MRE_pipeline.png =300*500)
 
 [arxiv](https://arxiv.org/pdf/2404.06220.pdf)
 
