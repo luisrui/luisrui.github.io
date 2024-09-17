@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Rui Cai"
   avatar           : "self-profile.png"
-  bio              : "An undergrat majoring in AI at Xi'an Jiaotong University"
-  location         : "Guangzhou(Canton)"
+  bio              : "Ph.D student in UCDavis"
+  location         : "Davis, California"
   employer         :
   pubmed           : #""
-  googlescholar    : #""
-  email            : "cr13862233007@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=ALUCkoUWik2V1t_jyoQ4vqBR3QIOviBpODRoauvKq5v7BnGJYTW8OBD8uNuKFjcod8RPiiaA3rTHnNJt6cRgtxM8jiE&user=navuQAEAAAAJ"
+  email            : 
   researchgate     : 
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/cairui6"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
