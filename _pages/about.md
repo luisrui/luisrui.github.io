@@ -35,9 +35,6 @@ Email : ruicai [at] ucdavis [dot] edu
   </table>
 </div>
 
-[arxiv](https://arxiv.org/pdf/2404.06220.pdf)
-
-
 Masked Face Dataset Generation and Masked Face Recognition 
 
 [arxiv](https://arxiv.org/abs/2311.07475) * [code](https://github.com/luisrui/Seeing-AI-system)
