@@ -21,7 +21,7 @@ Email : ruicai [at] ucdavis [dot] edu
   <table>
     <tr>
       <td width="55%">
-        <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/blob/master/images/MRE_pipeline.png" alt="Paper Pipeline" width="100%">
+        <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/master/images/MRE_pipeline.png" alt="Paper Pipeline" width="100%">
       </td>
       <td width="45%">
         <h3>Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
