@@ -22,7 +22,7 @@ Email : ruicai [at] ucdavis [dot] edu
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring
 
 ## Publication
-<text color="blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</text>
+<span style="color:blue">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</span>
 
 ![image pipeline](/images/MRE_pipeline.png =100x200)
 
