@@ -37,7 +37,25 @@ Email : ruicai [at] ucdavis [dot] edu
   </table>
 </div>
 
-Masked Face Dataset Generation and Masked Face Recognition 
+<div align="center">
+  <table style="border-collapse: collapse; border: none; width: 100%;">
+    <tr>
+      <td width="55%" style="border: none; padding: 0;">
+        <img src="https://raw.githubusercontent.com/luisrui/luisrui.github.io/master/images/masked_face_pipeline.png" alt="Paper Pipeline" width="100%">
+      </td>
+      <td width="45%" style="border: none; padding: 0 0 0 20px; vertical-align: middle; text-align: left;">
+        <div style="display: inline-block; text-align: left;">
+          <h3 style="margin-top: 0;">Masked Face Dataset Generation and Masked Face Recognition [project paper]</h3>
+          <p><strong>Authors:</strong> Rui Cai</p>
+          <p>
+            <a href="https://arxiv.org/abs/2311.07475v1">Paper</a> / 
+            <a href="https://github.com/luisrui/Seeing-AI-System">Code</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 [arxiv](https://arxiv.org/abs/2311.07475) * [code](https://github.com/luisrui/Seeing-AI-system)
 
