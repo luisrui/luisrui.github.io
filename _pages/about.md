@@ -47,7 +47,7 @@ Email : ruicai [at] ucdavis [dot] edu
       <td width="45%" style="border: none; padding: 0 0 0 20px; vertical-align: middle; text-align: left;">
         <div style="display: inline-block; text-align: left;">
           <h3 style="margin-top: 0;">Masked Face Dataset Generation and Masked Face Recognition [project paper]</h3>
-          <p><strong>Authors:</strong> Rui Cai</p>
+          <p>Authors: Rui Cai</p>
           <p>
             <a href="https://arxiv.org/pdf/2311.07475v1">Paper</a> /
             <a href="https://github.com/luisrui/Seeing-AI-System">Code</a>
