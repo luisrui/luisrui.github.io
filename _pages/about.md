@@ -26,7 +26,8 @@ Email : ruicai [at] ucdavis [dot] edu
       <td width="45%" style="border: none; padding: 0 0 0 20px; vertical-align: middle; text-align: left;">
         <div style="display: inline-block; text-align: left;">
           <h3 style="margin-top: 0;">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
-          <p><strong>Authors:</strong> Rui Cai, Shichao Pei, Xiangliang Zhang</p>
+          <p>Authors: <strong>Rui Cai</strong>, Shichao Pei, Xiangliang Zhang</p>
+          <p>In the Proceedings of the 2024 IEEE International Conference on Big Data</p>
           <p>
             <a href="https://arxiv.org/pdf/2404.06220.pdf">Paper</a> / 
             <a href="https://github.com/luisrui/Multimodal-Relation-Extrapolation">Code</a>
