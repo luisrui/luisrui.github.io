@@ -60,12 +60,12 @@ Email : ruicai [at] ucdavis [dot] edu
 
 ## Education
 + Ph.D student in Computer Science, University of California, Davis. 2024 Fall - Now
-+ B.S. in Artificial Intelligence, Xi’an Jiaotong University, 2020 Fall-2024 Spring, advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) and [Prof. Yuehu Liu]([https://gr.xjtu.edu.cn/en/web/yuehuliu](https://gr.xjtu.edu.cn/en/web/liuyh)) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/)
++ B.S. in Artificial Intelligence, Xi’an Jiaotong University, 2020 Fall-2024 Spring, advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) and [Prof. Yuehu Liu]([https://gr.xjtu.edu.cn/en/web/liuyh]) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/)
 + Visiting Student in Columbia College, Columbia University, 2022 Fall, advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/)
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring
 
 ## Experience
-Invited as a reviewer for KDD2024, IJCAI2024.
+Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025.
 
 #### 2024.9-NOW
 
@@ -73,7 +73,7 @@ PhD in Computer Science at UCDavis, co-advised by [Prof. Zhe Zhao](https://sites
 
 #### 2024.1-2024.8
 
-Research assistant at HKUST(GZ), supervised and collaborated with [Prof. Hui Xiong](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=253) and [Dr. Chao Wang](https://scholar.google.com/citations?hl=zh-CN&user=j08V64UAAAAJ&view_op=list_works&sortby=pubdate).
+Research assistant at HKUST(GZ), supervised and collaborated with [Prof. Hui Xiong]([https://scholar.google.com/citations?user=cVDF1tkAAAAJ&hl=en]) and [Dr. Chao Wang](https://scholar.google.com/citations?hl=zh-CN&user=j08V64UAAAAJ&view_op=list_works&sortby=pubdate).
 
 #### 2023.4-2024.4
 
