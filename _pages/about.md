@@ -13,7 +13,7 @@ I'm a first year Ph.D student at [Computer Science Department](https://cs.ucdavi
 
 Email : [first name][last name] [at] [my phd school] [dot] edu
 
-<div style="display:none">I had a wonderful RA intern at HKUST(GZ), advised by [Prof. Hui Xiong](https://www.hkust-gz.edu.cn/zh/people/hui-xiong/) and [Dr. Chao Wang](https://scholar.google.com/citations?hl=zh-CN&user=j08V64UAAAAJ&view_op=list_works&sortby=pubdate). I was very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) and [Dr. Shichao Pei](https://scpei.github.io/) of MINE Lab from [College of Engineering](https://engineering.nd.edu/), University of Notre Dame. I had a one-semester visit in Columbia University and luckily advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/) and gained a lot form his Convex Optimization course. I spent my wonderful sophomore year advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. I was enrolled in Youth Gifted Program of Xi'an Jiaotong University at 2018, and graduated at 2020.</div>
+<div style="display:none">I had a wonderful RA intern at HKUST(GZ), advised by [Prof. Hui Xiong](https://scholar.google.com/citations?user=cVDF1tkAAAAJ&hl=en) and [Dr. Chao Wang](https://scholar.google.com/citations?hl=zh-CN&user=j08V64UAAAAJ&view_op=list_works&sortby=pubdate). I was very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) and [Dr. Shichao Pei](https://scpei.github.io/) of MINE Lab from [College of Engineering](https://engineering.nd.edu/), University of Notre Dame. I had a one-semester visit in Columbia University and luckily advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/) and gained a lot form his Convex Optimization course. I spent my wonderful sophomore year advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. I was enrolled in Youth Gifted Program of Xi'an Jiaotong University at 2018, and graduated at 2020.</div>
 
 ## Publication
 
@@ -82,4 +82,4 @@ and collaborated with [Prof. Xiangliang Zhang](https://engineering.nd.edu/facult
 
 #### 2023.1-2023.4
 
-Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, advised by [Dr.Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Hong Zhong.
+Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, mentored by [Dr.Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Mr.Hong Zhong.
