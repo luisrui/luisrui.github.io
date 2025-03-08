@@ -23,7 +23,7 @@ Email : [first name][last name] [at] [my phd school] [dot] edu
   <p>Arxiv Preprint</p>
   <p>
     <a href="https://arxiv.org/pdf/2404.06220.pdf">Paper</a> / 
-    <a href="">Code</a>
+    <a>Code</a>
   </p>
 </div>
 
