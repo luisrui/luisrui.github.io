@@ -13,37 +13,70 @@ I'm a first year Ph.D student at [Computer Science Department](https://cs.ucdavi
 
 Email : [first name][last name] [at] [my phd school] [dot] edu
 
-<div style="display:none">I had a wonderful RA intern at HKUST(GZ), advised by [Prof. Hui Xiong](https://scholar.google.com/citations?user=cVDF1tkAAAAJ&hl=en) and [Dr. Chao Wang](https://scholar.google.com/citations?hl=zh-CN&user=j08V64UAAAAJ&view_op=list_works&sortby=pubdate). I was very fortunate to be advised by [Prof. Xiangliang Zhang](https://engineering.nd.edu/faculty/xiangliang-zhang/) and [Dr. Shichao Pei](https://scpei.github.io/) of MINE Lab from [College of Engineering](https://engineering.nd.edu/), University of Notre Dame. I had a one-semester visit in Columbia University and luckily advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/). I spent my wonderful sophomore year advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/), Xi'an Jiaotong University. I was enrolled in Youth Gifted Program of Xi'an Jiaotong University at 2018, and graduated at 2020.</div>
-
 ## Publication
 
-<div align="center" style="max-width: 600px; margin: 0 auto; padding: 20px;">
-  <h3 style="margin-top: 0;">Boosting Knowledge Graph-based Recommendations through Confidence-Aware Augmentation with Large Language Models</h3>
-  <p>Authors: <strong>Rui Cai</strong>, Chao Wang, Qianyi Cai, Dazhong Shen, Hui Xiong</p>
-  <p>Arxiv Preprint</p>
-  <p>
-    <a href="https://arxiv.org/pdf/2502.03715">Paper</a> / 
-    <a>Code</a>
-  </p>
+<style>
+  .pub-card {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .pub-card h3 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  .pub-card p {
+    margin: 0.4em 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  .pub-links a {
+    display: inline-block;
+    margin: 8px 6px;
+    padding: 6px 14px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .pub-links a:hover {
+    background-color: #005e99;
+  }
+</style>
+
+<div class="pub-card">
+  <h3>Boosting Knowledge Graph-based Recommendations through Confidence-Aware Augmentation with Large Language Models</h3>
+  <p><strong>Rui Cai</strong>, Chao Wang, Qianyi Cai, Dazhong Shen, Hui Xiong</p>
+  <p><em>Arxiv Preprint</em></p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2502.03715" target="_blank">📄 Paper</a>
+    <a href="#" target="_blank">💻 Code (Coming soon)</a>
+  </div>
 </div>
 
-<div align="center" style="max-width: 600px; margin: 0 auto; padding: 20px;">
-  <h3 style="margin-top: 0;">Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
-  <p>Authors: <strong>Rui Cai</strong>, Shichao Pei, Xiangliang Zhang</p>
-  <p>In the Proceedings of the 2024 IEEE International Conference on Big Data</p>
-  <p>
-    <a href="https://arxiv.org/pdf/2404.06220.pdf">Paper</a> / 
-    <a href="https://github.com/luisrui/Multimodal-Relation-Extrapolation">Code</a>
-  </p>
+<div class="pub-card">
+  <h3>Zero-Shot Relational Learning for Multimodal Knowledge Graphs</h3>
+  <p><strong>Rui Cai</strong>, Shichao Pei, Xiangliang Zhang</p>
+  <p><em>Proceedings of IEEE Big Data 2024</em></p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2404.06220.pdf" target="_blank">📄 Paper</a>
+    <a href="https://github.com/luisrui/Multimodal-Relation-Extrapolation" target="_blank">💻 Code</a>
+  </div>
 </div>
 
-<div align="center" style="max-width: 600px; margin: 0 auto; padding: 20px;">
-  <h3 style="margin-top: 0;">Masked Face Dataset Generation and Masked Face Recognition [project paper]</h3>
-  <p>Authors: Rui Cai</p>
-  <p>
-    <a href="https://arxiv.org/pdf/2311.07475v1">Paper</a> /
-    <a href="https://github.com/luisrui/Seeing-AI-System">Code</a>
-  </p>
+<div class="pub-card">
+  <h3>Masked Face Dataset Generation and Masked Face Recognition [Project Paper]</h3>
+  <p><strong>Rui Cai</strong></p>
+  <div class="pub-links">
+    <a href="https://arxiv.org/pdf/2311.07475v1" target="_blank">📄 Paper</a>
+    <a href="https://github.com/luisrui/Seeing-AI-System" target="_blank">💻 Code</a>
+  </div>
 </div>
 
 ## Education
