@@ -53,7 +53,9 @@ Email : [first name][last name] [at] [my phd school] [dot] edu
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring
 
 ## Experience
-Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025.
+Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025, ACL ARR 2024December, ICML2025.
+
+Served as Teaching Assistant for ECS 111 Applied Machine Learning
 
 #### 2024.9-NOW
 
