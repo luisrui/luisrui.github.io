@@ -12,11 +12,9 @@ Before PhD, I had a wonderful RA intern at HKUST(GZ), advised by [Prof. Hui Xion
 
 Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025, ACL ARR 2024December, ICML2025.
 
-Served as Lead Teaching Assistant for ECS 111 Applied Machine Learning
+#### 2025.4 - 2025.6
 
-#### 2024.9-NOW
-
-PhD in Computer Science at UCDavis, co-advised by [Prof. Zhe Zhao](https://sites.google.com/view/zhezhao) and [Prof. Muhao Chen](https://muhaochen.github.io/). 
+Lead Teaching Assistant for ECS 111 Applied Machine Learning, 2025 Spring Quarter
 
 #### 2024.1-2024.8
 

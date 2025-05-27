@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 ## About Me
-I'm a first year Ph.D student at [Computer Science Department](https://cs.ucdavis.edu/), [University of California, Davis](https://www.ucdavis.edu/). The pronunciation of my name is "Ray Tsai"(You can call me Yanson(言燊) or Luis). My research interest includes multimodal machine learning and large language models. I am an enthusiastic fan of [Synthetic Ascension](https://stellaris.paradoxwikis.com/Traditions#Synthetics)[^1]. 
+I'm a first year Ph.D student at [Computer Science Department](https://cs.ucdavis.edu/), [University of California, Davis](https://www.ucdavis.edu/). The pronunciation of my name is "Ray Tsai"(You can call me Yanson(言燊) or Luis). My research interest includes multimodal machine learning and large language models. 
+
+I am an enthusiastic fan of [Synthetic Ascension](https://stellaris.paradoxwikis.com/Traditions#Synthetics)[^1]. 
 
 [^1]: Synthetic Ascension represents the ultimate technological evolution path where organic consciousness is transferred to advanced mechanical bodies, transcending biological limitations and opening new frontiers of existence and exploration.
 
@@ -92,7 +94,7 @@ Email : [first name][last name] [at] [my phd school] [dot] edu
 </div>
 
 ## Education
-+ Ph.D student in Computer Science, University of California, Davis. 2024 Fall - Now
++ Ph.D student in Computer Science, University of California, Davis, 2024 Fall - Now, co-advised by [Prof. Zhe Zhao](https://sites.google.com/view/zhezhao) and [Prof. Muhao Chen](https://muhaochen.github.io/).
 + B.S. in Artificial Intelligence, Xi’an Jiaotong University, 2020 Fall-2024 Spring, advised by [Prof. Pengju Ren](https://gr.xjtu.edu.cn/en/web/pengjuren) and [Prof. Yuehu Liu]([https://gr.xjtu.edu.cn/en/web/liuyh]) from [College of Artificial Intelligence](https://iair.xjtu.edu.cn/)
 + Visiting Student in Columbia College, Columbia University, 2022 Fall, advised by [Prof.James Anderson](http://www.columbia.edu/~ja3451/)
 + The special class of Young Gifted Program, Xi’an Jiaotong University, 2018 Fall-2020 Spring

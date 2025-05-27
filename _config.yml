@@ -82,7 +82,9 @@ analytics:
 author:
   name             : "Rui Cai"
   avatar           : "self-profile.png"
-  bio              : "Ph.D student in UCDavis"
+  bio              : >
+                      Rui Cai (サイ エイ, Sai Ei, Ray Tsai)
+                      CS Ph.D. student at UC Davis
   location         : "Davis, California"
   employer         :
   pubmed           : #""
