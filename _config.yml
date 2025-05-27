@@ -82,7 +82,10 @@ analytics:
 author:
   name             : "Rui Cai"
   avatar           : "self-profile.png"
-  bio              : Rui Cai (Pinyin: Cài Ruì / Kana: サイ エイ / Romaji: Sai Ei))<br>CS Ph.D. student at UC Davis
+  bio              : |
+    Rui Cai 
+    Pinyin: Cài Ruì / Kana: サイ エイ / Romaji: Sai Ei
+    CS Ph.D. student at UC Davis
   location         : "Davis, California"
   employer         :
   pubmed           : #""
