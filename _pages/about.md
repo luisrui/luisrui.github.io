@@ -60,7 +60,7 @@ Email : [first name][last name] [at] [my phd school] [dot] edu
   <p><em>Arxiv Preprint</em></p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2505.19616" target="_blank">📄 Paper</a>
-    <a href="https://github.com/luisrui/Modality-Interference-in-MLLM" target="_blank">💻 Code</a>
+    <a href="https://github.com/luisrui/Modality-Interference-in-MLLMs" target="_blank">💻 Code</a>
   </div>
 </div>
 
