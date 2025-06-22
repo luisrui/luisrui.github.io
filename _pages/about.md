@@ -95,7 +95,7 @@ Email : [first name][last name] [at] [my phd school] [dot] edu
 
 ## Invited Talk
 
-- *Modality Interference in Multimodal Large Language Models*, Invited Talk at Google DeepMind, Jun 2025  
+- *Modality Interference in Multimodal Large Language Models*, Invited Talk at Google, Jun 2025  
 - *Modality Interference in Multimodal Large Language Models*, PhD Symposium, LinkedIn GenAI, Jun 2025
 
 ## Education
