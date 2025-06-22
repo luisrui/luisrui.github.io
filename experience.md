@@ -14,7 +14,7 @@ Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025, ACL ARR 202
 
 #### 2025.6 - 2025.9
 
-AI PhD Intern at LinkedIn GenAI, Hirer AI Team, mentored by [Arashpreet Singh Mor](https://www.linkedin.com/in/arashpreet-singh/), [Chiara Poletti](https://www.linkedin.com/in/chiarapoletti/) and [Tony Lee](https://scholar.google.com/citations?hl=en&user=KFoNfF0AAAAJ&view_op=list_works&sortby=pubdate)
+AI PhD Intern at LinkedIn GenAI, Hirer AI Team, mentored by [Arashpreet Singh Mor](https://www.linkedin.com/in/arashpreet-singh/), [Chiara Poletti](https://www.linkedin.com/in/chiarapoletti/) and [Dr. Tony Lee](https://scholar.google.com/citations?hl=en&user=KFoNfF0AAAAJ&view_op=list_works&sortby=pubdate)
 
 #### 2025.4 - 2025.6
 
@@ -31,4 +31,4 @@ and collaborated with [Prof. Xiangliang Zhang](https://engineering.nd.edu/facult
 
 #### 2023.1-2023.4
 
-Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, mentored by [Dr.Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Mr.Hong Zhong.
+Autopilot Algorithm Internship in Plus.ai, Suzhou base, focusing on noisy sample detection, mentored by [Dr. Dixiao Cui](https://www.linkedin.com/in/dixiaocui/) and Hong Zhong.
