@@ -12,6 +12,10 @@ Before PhD, I had a wonderful RA intern at HKUST(GZ), advised by [Prof. Hui Xion
 
 Invited as a reviewer for KDD2024, IJCAI2024, COLING2025, IJCAI2025, ACL ARR 2024December, ICML2025.
 
+#### 2025.6 - 2025.9
+
+AI PhD Intern at LinkedIn GenAI, Hirer AI Team
+
 #### 2025.4 - 2025.6
 
 Lead Teaching Assistant for ECS 111 Applied Machine Learning, 2025 Spring Quarter
