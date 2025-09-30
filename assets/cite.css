@@ -1,0 +1,92 @@
+:root {
+  --nav:#0F3B52;        /* 顶部深蓝条 */
+  --bg:#F2B987;         /* 全页淡橙背景 */
+  --ink:#183446;        /* 主文字深蓝灰 */
+  --muted:#355E8A;      /* 次要文字 */
+  --accent:#1F6FEB;     /* 链接蓝 */
+  --accent-yellow:#FFD7A3; /* 名字/下划线淡黄 */
+  --panel:#FFDDB3;      /* 浅橙卡片（用于项目/联系等） */
+  --maxw:1100px;
+  --radius:18px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; }
+
+body{
+  font:18px/1.7 "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color:var(--ink);
+  background:var(--bg);
+}
+
+a{ color:var(--accent); text-decoration-thickness:2px; text-underline-offset:2px; }
+
+/* 顶部蓝色bar */
+header{ position:sticky; top:0; z-index:10; background:var(--nav); }
+.nav{
+  max-width:var(--maxw); margin:0 auto;
+  display:flex; align-items:center; gap:20px; padding:22px 24px;
+}
+.brand{
+  color:var(--accent-yellow); font-weight:700; font-size:28px; letter-spacing:.4px;
+  text-decoration:none; border-bottom:4px solid var(--accent-yellow); padding-bottom:2px;
+}
+.spacer{ flex:1; }
+.nav a{ color:#E6EEFC; opacity:.9; text-decoration:none; }
+.nav a:hover{ opacity:1; }
+
+.wrap{ max-width:var(--maxw); margin:0 auto; padding:40px 24px 100px; }
+
+/* 左图右文的 hero */
+.hero{
+  display:grid; grid-template-columns:360px 1fr; gap:40px; align-items:center;
+  margin:56px 0 48px;
+}
+.hero img{
+  width:100%; height:auto; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,.18);
+}
+.bio{ text-align:center; }
+.bio .bar{
+  width:min(520px,70%); height:5px; background:var(--nav);
+  border-radius:3px; margin:8px auto 22px;
+}
+.bio p{
+  margin:18px auto; max-width:720px; font-size:22px; line-height:1.6; letter-spacing:.2px;
+}
+
+section{ margin-top:48px; }
+h2{ font-size:24px; margin:0 0 10px; }
+
+.card{
+  background:var(--panel); border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--radius); padding:18px 20px;
+}
+.grid{ display:grid; gap:14px; }
+.grid.cols-2{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+
+.item h3{ margin:0 0 6px; font-size:18px; }
+.item p{ margin:0; color:#284d6f; }
+.meta{ display:flex; gap:10px; flex-wrap:wrap; margin-top:6px; font-size:13px; color:#284d6f; }
+.tag{ padding:2px 8px; background:rgba(0,0,0,.06); border-radius:999px; }
+
+footer{ color:#284d6f; margin-top:60px; text-align:center; }
+
+@media (max-width:780px){ .hero{ grid-template-columns:1fr; } }
+
+/* Publications — 深蓝 + 橙黄强调 */
+.pubs{
+  background:#0f3b52; color:#f7e8d0; border-radius:var(--radius); padding:28px 24px;
+}
+.pubs h2{ color:#f7e8d0; margin-bottom:18px; }
+.pubs a{ color:#d7f0ff; text-decoration:underline; text-decoration-thickness:3px; text-underline-offset:3px; }
+.pubs .pub{ margin:26px 0; }
+.pubs .pub-title{ font-size:22px; margin:0 0 6px; }
+.pubs .org{ font-size:18px; margin:0 0 18px; }
+.pubs .role{ color:#FF9F1C; font-weight:700; }
+.pubs hr{ border:none; border-top:3px solid #f7e8d0; opacity:.85; margin:28px 0; }
+.pubs .authors{ font-size:22px; line-height:1.5; margin:0 0 6px; }
+.pubs .authors .me{ color:#FF9F1C; font-weight:800; }
+.pubs .venue{ font-size:20px; margin:0; }
+
+/* 可选：整站平滑滚动 */
+html{ scroll-behavior:smooth; }

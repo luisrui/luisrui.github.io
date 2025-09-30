@@ -34,255 +34,7 @@
     <!-- 可选：与示例接近的几何字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <style>
-        :root {
-            --nav: #0F3B52;
-            /* 顶部深蓝条 */
-            --bg: #F2B987;
-            /* 全页淡橙背景 */
-            --ink: #183446;
-            /* 主文字深蓝灰 */
-            --muted: #355E8A;
-            /* 次要文字 */
-            --accent: #1F6FEB;
-            /* 链接蓝 */
-            --accent-yellow: #FFD7A3;
-            /* 名字/下划线淡黄 */
-            --panel: #FFDDB3;
-            /* 浅橙卡片（用于项目/联系等） */
-            --maxw: 1100px;
-            --radius: 18px;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        html,
-        body {
-            margin: 0;
-        }
-
-        body {
-            font: 18px/1.7 "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-            color: var(--ink);
-            background: var(--bg);
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
-        }
-
-        /* 顶部蓝色bar */
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 10;
-            background: var(--nav);
-        }
-
-        .nav {
-            max-width: var(--maxw);
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            padding: 22px 24px;
-        }
-
-        .brand {
-            color: var(--accent-yellow);
-            font-weight: 700;
-            font-size: 28px;
-            letter-spacing: .4px;
-            text-decoration: none;
-            border-bottom: 4px solid var(--accent-yellow);
-            /* 淡黄下划线 */
-            padding-bottom: 2px;
-        }
-
-        .spacer {
-            flex: 1;
-        }
-
-        .nav a {
-            color: #E6EEFC;
-            opacity: .9;
-            text-decoration: none;
-        }
-
-        .nav a:hover {
-            opacity: 1;
-        }
-
-        .wrap {
-            max-width: var(--maxw);
-            margin: 0 auto;
-            padding: 40px 24px 100px;
-        }
-
-        /* 左图右文的 hero */
-        .hero {
-            display: grid;
-            grid-template-columns: 360px 1fr;
-            gap: 40px;
-            align-items: center;
-            margin: 56px 0 48px;
-        }
-
-        .hero img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 12px 40px rgba(0, 0, 0, .18);
-        }
-
-        .bio {
-            text-align: center;
-        }
-
-        .bio .bar {
-            width: min(520px, 70%);
-            height: 5px;
-            background: var(--nav);
-            border-radius: 3px;
-            margin: 8px auto 22px;
-        }
-
-        .bio p {
-            margin: 18px auto;
-            max-width: 720px;
-            font-size: 22px;
-            line-height: 1.6;
-            letter-spacing: .2px;
-        }
-
-        section {
-            margin-top: 48px;
-        }
-
-        h2 {
-            font-size: 24px;
-            margin: 0 0 10px;
-        }
-
-        .card {
-            background: var(--panel);
-            border: 1px solid rgba(0, 0, 0, .06);
-            border-radius: var(--radius);
-            padding: 18px 20px;
-        }
-
-        .grid {
-            display: grid;
-            gap: 14px;
-        }
-
-        .grid.cols-2 {
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-        }
-
-        .item h3 {
-            margin: 0 0 6px;
-            font-size: 18px;
-        }
-
-        .item p {
-            margin: 0;
-            color: #284d6f;
-        }
-
-        .meta {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: 6px;
-            font-size: 13px;
-            color: #284d6f;
-        }
-
-        .tag {
-            padding: 2px 8px;
-            background: rgba(0, 0, 0, .06);
-            border-radius: 999px;
-        }
-
-        footer {
-            color: #284d6f;
-            margin-top: 60px;
-            text-align: center;
-        }
-
-        @media (max-width: 780px) {
-            .hero {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Publications — 深蓝 + 橙黄强调（保留你现有的样式） */
-        .pubs {
-            background: #0f3b52;
-            color: #f7e8d0;
-            border-radius: var(--radius);
-            padding: 28px 24px;
-        }
-
-        .pubs h2 {
-            color: #f7e8d0;
-            margin-bottom: 18px;
-        }
-
-        .pubs a {
-            color: #d7f0ff;
-            text-decoration: underline;
-            text-decoration-thickness: 3px;
-            text-underline-offset: 3px;
-        }
-
-        .pubs .pub {
-            margin: 26px 0;
-        }
-
-        .pubs .pub-title {
-            font-size: 22px;
-            margin: 0 0 6px;
-        }
-
-        .pubs .org {
-            font-size: 18px;
-            margin: 0 0 18px;
-        }
-
-        .pubs .role {
-            color: #FF9F1C;
-            font-weight: 700;
-        }
-
-        .pubs hr {
-            border: none;
-            border-top: 3px solid #f7e8d0;
-            opacity: .85;
-            margin: 28px 0;
-        }
-
-        .pubs .authors {
-            font-size: 22px;
-            line-height: 1.5;
-            margin: 0 0 6px;
-        }
-
-        .pubs .authors .me {
-            color: #FF9F1C;
-            font-weight: 800;
-        }
-
-        .pubs .venue {
-            font-size: 20px;
-            margin: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/site.css">
 </head>
 
 <body>
@@ -305,10 +57,12 @@
             <div class="bio">
                 <div class="bar"></div>
                 <p>
-                    I'm a second year Ph.D student at [Computer Science Department](https://cs.ucdavis.edu/),
-                    [University of California, Davis](https://www.ucdavis.edu/). The pronunciation of my name is "Ray
-                    Tsai"(You can call me Yanson(言燊) or Luis). My research interest includes multimodal machine learning
-                    and large language models.
+                    I'm a second-year Ph.D. student at
+                    <a href="https://cs.ucdavis.edu/" target="_blank" rel="noopener">Computer Science Department</a>,
+                    <a href="https://www.ucdavis.edu/" target="_blank" rel="noopener">University of California,
+                        Davis</a>.
+                    The pronunciation of my name is “Ray Tsai” (you can call me Yanson(言燊)).
+                    My research interests include multimodal machine learning and large language models.
                 </p>
                 <p>
                     I am an enthusiastic fan of Synthetic Ascension<sup id="ref1"><a href="#fn1">1</a></sup>.
@@ -320,61 +74,9 @@
             </div>
         </section>
 
-        <!-- PUBLICATIONS（深蓝区块） -->
-        <section id="pubs" class="pubs">
-            <h2>Publications</h2>
-
-            <article class="pub">
-                <h3 class="pub-title"><a href="#">PaLM 2 Technical Report</a></h3>
-                <p class="org">Google (<span class="role">Core Contributor</span>)</p>
-                <hr />
-            </article>
-
-            <article class="pub">
-                <h3 class="pub-title"><a href="#">Brainformers: Trading Simplicity for Efficiency</a></h3>
-                <p class="authors">
-                    Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri,
-                    <span class="me">Rui (Yanson) Cai</span>, Andrew M. Dai, Yifeng Lu, Zhifeng Chen, Quoc V. Le, Claire
-                    Cui,
-                    James Laudon, Jeff Dean
-                </p>
-                <p class="venue">In <em>International Conference on Machine Learning 2023</em></p>
-                <hr />
-            </article>
-            <!-- 更多条目按需复制 -->
-        </section>
-
-        <!-- PROJECTS（浅橙卡片） -->
-        <section id="projects">
-            <h2>Selected Projects</h2>
-            <div class="grid cols-2">
-                <article class="item card">
-                    <h3>High-Quality Low-Latency Candidate Evaluation (LinkedIn)</h3>
-                    <p>Supervised Qwen-3-8B with custom GRPO rewards; quantization (W8A8/W4A16/FP8 KV-cache) and
-                        speculative decoding to cut P95 latency &lt; 4s.</p>
-                    <div class="meta"><span class="tag">vLLM</span><span class="tag">Quantization</span><span
-                            class="tag">SpecDec</span></div>
-                </article>
-                <article class="item card">
-                    <h3>TokEmb-Semantic-ID for Sequential Rec</h3>
-                    <p>Hybrid item representations (CF + semantic) with fair evaluation (time-ordered splits, val sets,
-                        recall@10/NDCG@10).</p>
-                    <div class="meta"><span class="tag">RecBole</span><span class="tag">SASRec/BERT4Rec</span></div>
-                </article>
-            </div>
-        </section>
-
-        <!-- TALKS -->
-        <section id="talks">
-            <h2>Talks</h2>
-            <div class="grid">
-                <article class="item card">
-                    <h3>Modality Interference in MLLMs</h3>
-                    <p>Invited talks at Google Research/DeepMind and LinkedIn PhD Symposium (2025).</p>
-                    <div class="meta"><a href="#">Slides</a> · <a href="#">Recording</a></div>
-                </article>
-            </div>
-        </section>
+        <section id="pubs" class="pubs" data-include="/sections/publications.html"></section>
+        <section id="experiences" data-include="/sections/experiences.html"></section>
+        <section id="talks" data-include="/sections/talks.html"></section>
 
         <!-- CONTACT -->
         <section id="contact">
@@ -387,7 +89,8 @@
 
         <p id="fn1">
             <sup>1</sup> Synthetic Ascension represents the ultimate technological evolution path where organic
-            consciousness is transferred to advanced mechanical bodies...
+            consciousness is transferred to advanced mechanical bodies, transcending biological limitations and opening
+            new frontiers of existence and exploration.
         </p>
 
         <footer>
@@ -396,6 +99,44 @@
     </main>
 
     <script>
+        async function loadIncludes() {
+            const nodes = document.querySelectorAll("[data-include]");
+            for (const el of nodes) {
+                const url = el.getAttribute("data-include");
+                try {
+                    const res = await fetch(url, {
+                        cache: "no-store"
+                    });
+                    if (!res.ok) throw new Error(res.status + " " + res.statusText);
+                    const html = await res.text();
+                    el.innerHTML = html;
+
+                    // 如果片段没有最外层 section 的 class，需要把样式 class 补上
+                    // 举例：给 publications 区块加 .pubs 深蓝样式
+                    if (el.id === "pubs") el.classList.add("pubs");
+                } catch (e) {
+                    el.innerHTML =
+                        `<div class="card"><p style="color:#a33">Failed to load ${url}: ${e.message}</p></div>`;
+                }
+            }
+        }
+        loadIncludes();
+
+        // （可选）锚点平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener("click", (e) => {
+                const id = a.getAttribute("href").slice(1);
+                const target = document.getElementById(id);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                    });
+                    history.pushState(null, "", "#" + id);
+                }
+            });
+        });
         document.getElementById('y').textContent = new Date().getFullYear();
     </script>
 </body>
