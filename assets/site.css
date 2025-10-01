@@ -88,5 +88,24 @@ footer{ color:#284d6f; margin-top:60px; text-align:center; }
 .pubs .authors .me{ color:#FF9F1C; font-weight:800; }
 .pubs .venue{ font-size:20px; margin:0; }
 
+.exp{
+  background: #0c2e3f;        /* 深青蓝底 */
+  color: #f3efe6;             /* 浅米文字 */
+  border-radius: var(--radius);
+  padding: 28px 24px;
+}
+.exp h2{ color:#f3efe6; }
+.exp a{ color:#cfe9ff; text-decoration: underline; text-underline-offset:3px; }
+.exp .card{
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+}
+.exp .item p,
+.exp .meta{ color:#e6e0d1; }
+.exp .tag{
+  background: rgba(255,255,255,.12);
+  color:#f3efe6;
+}
+
 /* 可选：整站平滑滚动 */
 html{ scroll-behavior:smooth; }
