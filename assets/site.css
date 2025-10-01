@@ -73,38 +73,57 @@ footer{ color:#284d6f; margin-top:60px; text-align:center; }
 
 @media (max-width:780px){ .hero{ grid-template-columns:1fr; } }
 
-/* Publications — 深蓝 + 橙黄强调 */
-.pubs{
-  background:#0f3b52; color:#f7e8d0; border-radius:var(--radius); padding:28px 24px;
+/* —— 通用：全宽区块（拉满左右） —— */
+.fullbleed{
+  position: relative;
+  width: 100vw;
+  left: 50%; right: 50%;
+  margin-left: -50vw; margin-right: -50vw;
 }
-.pubs h2{ color:#f7e8d0; margin-bottom:18px; }
-.pubs a{ color:#d7f0ff; text-decoration:underline; text-decoration-thickness:3px; text-underline-offset:3px; }
-.pubs .pub{ margin:26px 0; }
-.pubs .pub-title{ font-size:22px; margin:0 0 6px; }
-.pubs .org{ font-size:18px; margin:0 0 18px; }
-.pubs .role{ color:#FF9F1C; font-weight:700; }
-.pubs hr{ border:none; border-top:3px solid #f7e8d0; opacity:.85; margin:28px 0; }
-.pubs .authors{ font-size:22px; line-height:1.5; margin:0 0 6px; }
-.pubs .authors .me{ color:#FF9F1C; font-weight:800; }
-.pubs .venue{ font-size:20px; margin:0; }
 
-.exp{
-  background: #0c2e3f;        /* 深青蓝底 */
-  color: #f3efe6;             /* 浅米文字 */
-  border-radius: var(--radius);
-  padding: 28px 24px;
+/* —— 通用：居中的大标题（带下划线） —— */
+.section-title{
+  text-align:center;
+  font-size: clamp(36px, 5vw, 72px);
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin: 0 0 18px;
 }
-.exp h2{ color:#f3efe6; }
-.exp a{ color:#cfe9ff; text-decoration: underline; text-underline-offset:3px; }
-.exp .card{
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.14);
+.section-title::after{
+  content:"";
+  display:block;
+  width:min(420px,40%);
+  height:5px;
+  margin:14px auto 0;
+  background: var(--ink);       /* 默认用正文色作横线 */
+  opacity:.9; border-radius:3px;
 }
-.exp .item p,
-.exp .meta{ color:#e6e0d1; }
-.exp .tag{
-  background: rgba(255,255,255,.12);
-  color:#f3efe6;
+
+/* ===== Publications：全宽深蓝背景 + 居中大标题 ===== */
+.pubs-full{ background:#1c4257; color:#f7e8d0; padding: 80px 0; }
+.pubs-full .container{ max-width:var(--maxw); margin:0 auto; padding:0 24px; }
+.pubs-full .section-title{ color:#f7e8d0; }
+.pubs-full .section-title::after{ background:#f7e8d0; }
+.pubs-full a{ color:#d7f0ff; text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:3px; }
+.pubs-full .role, .pubs-full .authors .me{ color:#FF9F1C; font-weight:800; }
+.pubs-full hr{ border:none; border-top:4px solid rgba(247,232,208,.9); margin:36px 0; }
+
+/* ===== Experiences + Talks：回归主背景，只居中标题 ===== */
+/* 不需要额外背景色，保持页面的 --bg 即可 */
+/* 给这两个区块的标题换成浅深蓝横线更搭配： */
+.exps .section-title::after,
+.talks .section-title::after{ background:#1c4257; }
+
+/* ===== Contact：全宽深蓝背景 + 卡片 ===== */
+.contact-full{ background:#1c4257; color:#f7e8d0; padding: 64px 0; }
+.contact-full .container{ max-width:var(--maxw); margin:0 auto; padding:0 24px; }
+.contact-full .section-title{ color:#f7e8d0; }
+.contact-full .section-title::after{ background:#f7e8d0; }
+.contact-full a{ color:#d7f0ff; text-decoration:underline; text-underline-offset:3px; }
+.contact-full .card{
+  background: rgba(255,255,255,.08);         /* 蓝底上的半透明卡片 */
+  border: 1px solid rgba(255,255,255,.18);
+  color:#f7f5ee;
 }
 
 /* 可选：整站平滑滚动 */
