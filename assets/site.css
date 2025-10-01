@@ -112,34 +112,6 @@ footer{ color:#284d6f; margin-top:60px; text-align:center; }
 /* 不需要额外背景色，保持页面的 --bg 即可 */
 /* 给这两个区块的标题换成浅深蓝横线更搭配： */
 
-.exps-full{
-  background:#EDB36B;              /* 你刚才用的更深黄 */
-  color:#183446;                   /* 文本深蓝灰，和全站一致 */
-  padding:80px 0;                  /* 跟 pubs-full 一致的上下留白 */
-}
-.exps-full .container{
-  max-width:var(--maxw);
-  margin:0 auto;
-  padding:0 24px;
-}
-.exps-full .section-title{
-  color:#183446;
-}
-.exps-full .section-title::after{
-  background:#1c4257;              /* 标题下横线用深蓝，呼应导航色 */
-}
-
-/* 全宽黄底上的卡片（保持有层次） */
-.exps-full .card{
-  background:#F0C07A;              /* 比 --panel(#FFDDB3) 更深一点的黄 */
-  border:1px solid rgba(0,0,0,.08);
-  box-shadow:0 2px 0 rgba(0,0,0,.05) inset;
-}
-.exps-full a{
-  color:#1F6FEB;
-  text-decoration:underline;
-  text-underline-offset:3px;
-}
 /* ===== Contact：全宽深蓝背景 + 卡片 ===== */
 .contact-full{ background:#1c4257; color:#f7e8d0; padding: 64px 0; }
 .contact-full .container{ max-width:var(--maxw); margin:0 auto; padding:0 24px; }
