@@ -39,39 +39,33 @@ header{ position:sticky; top:0; z-index:10; background:var(--nav); }
 
 /* 左图右文的 hero */
 .hero{
-  display:grid; grid-template-columns:360px 1fr; gap:40px; align-items:center;
-  margin:56px 0 48px;
-}
-.hero img{
-  width:100%; height:auto; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,.18);
-}
-.bio{ text-align:center; }
-.bio .bar{
-  width:min(520px,70%); height:5px; background:var(--nav);
-  border-radius:3px; margin:8px auto 22px;
-}
-.bio p{
-  margin:18px auto; max-width:720px; font-size:22px; line-height:1.6; letter-spacing:.2px;
-}
-
-/* 让 hero 里的文字更规整 */
-.hero{
   display:grid;
   grid-template-columns:360px 1fr;
   gap:40px;
   align-items:start;   /* 和图片顶部对齐，而不是垂直居中 */
   margin:56px 0 48px;
 }
-
-.bio{ text-align:center; }
-
-.bio p{
-  margin:18px auto;
-  max-width:720px;
-  font-size:22px;
-  line-height:1.6;
-  letter-spacing:.2px;
+.hero img{
+  width:100%; height:auto; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,.18);
 }
+.bio .bar{
+  width:min(520px,70%); height:5px; background:var(--nav);
+  border-radius:3px; margin:8px auto 22px;
+}
+.bio{ text-align:left; }
+/* 段落的通用样式 */
+.bio p{
+  margin:18px 0;            /* 不用 auto，让它正常从顶部开始排 */
+  max-width:720px;
+  font-size:18px;
+  line-height:1.7;
+}
+
+/* 把第一段的上边距去掉，让它和图片顶对齐 */
+.bio p:first-of-type{
+  margin-top:0;
+}
+
 
 /* 列表：保持整体居中，但内容左对齐 */
 .bio-list{
