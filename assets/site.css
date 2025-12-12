@@ -126,3 +126,116 @@ footer{ color:#284d6f; margin-top:60px; text-align:center; }
 
 /* 可选：整站平滑滚动 */
 html{ scroll-behavior:smooth; }
+
+/* ===== Timeline ===== */
+
+.timeline{
+  position:relative;
+  margin-top:30px;
+  padding:10px 0 10px;
+}
+
+/* 中央竖线 */
+.timeline::before{
+  content:"";
+  position:absolute;
+  inset:0 auto;
+  left:50%;
+  transform:translateX(-50%);
+  width:4px;
+  background:rgba(0,0,0,.08);
+  border-radius:999px;
+}
+
+/* 每个节点 */
+.timeline-item{
+  position:relative;
+  display:flex;
+  margin:26px 0;
+}
+
+/* 圆点 */
+.timeline-dot{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  width:18px;
+  height:18px;
+  border-radius:50%;
+  background:var(--bg);
+  border:4px solid var(--nav);
+  box-shadow:0 0 0 4px rgba(0,0,0,.03);
+}
+
+/* 时间标签 */
+.timeline-date{
+  position:absolute;
+  top:-2px;
+  font-size:13px;
+  font-weight:500;
+  color:var(--muted);
+  white-space:nowrap;
+}
+
+/* 卡片本体，复用 .card 的风格 */
+.timeline-card{
+  max-width:44%;
+}
+
+/* 右侧 item：卡片在右边，日期在竖线右侧 */
+.timeline-item.right{
+  justify-content:flex-end;
+}
+.timeline-item.right .timeline-card{
+  margin-right:60px;
+}
+.timeline-item.right .timeline-date{
+  right:calc(50% + 24px);
+}
+
+/* 左侧 item：卡片在左边，日期在竖线左侧 */
+.timeline-item.left{
+  justify-content:flex-start;
+}
+.timeline-item.left .timeline-card{
+  margin-left:60px;
+}
+.timeline-item.left .timeline-date{
+  left:calc(50% + 24px);
+}
+
+/* 让时间线里的标题和原来卡片保持一致 */
+.timeline-card h3{
+  margin:0 0 6px;
+  font-size:18px;
+}
+.timeline-card p{
+  margin:0;
+  color:#284d6f;
+}
+
+/* 响应式：在窄屏上收成单列时间线 */
+@media (max-width:780px){
+  .timeline::before{
+    left:18px;
+    transform:none;
+  }
+  .timeline-dot{
+    left:18px;
+    transform:none;
+  }
+  .timeline-item{
+    margin:22px 0;
+  }
+  .timeline-card{
+    max-width:100%;
+    margin:0 0 0 46px !important; /* 覆盖左右布局 */
+  }
+  .timeline-date{
+    position:relative;
+    top:-4px;
+    left:46px;
+    right:auto;
+    margin-bottom:4px;
+  }
+}
