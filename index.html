@@ -51,62 +51,56 @@
     </header>
 
     <main id="home" class="wrap">
-        <div class="profile-container">
-            <aside class="profile-sidebar">
-                <div class="avatar-wrapper">
-                    <img src="assets/profile.jpg" alt="Portrait of Rui (Yanson) Cai" />
-                </div>
-                
-                <div class="contact-info">
-                    <h1>Rui (Yanson) Cai</h1>
-                    <p class="subtitle">Ph.D. Student @ UC Davis</p>
-                    <div class="divider"></div>
-                    <p class="email">
-                        <span class="icon">✉️</span> [first][last] @ ucdavis.edu
-                    </p>
-                    </div>
-            </aside>
+        <!-- 左图右文简介（与示例一致） -->
+        <section class="hero">
+            <img src="assets/profile.jpg" alt="Portrait of Rui (Yanson) Cai" />
 
-            <section class="profile-content">
-                <p class="intro">
-                    I'm a second-year Ph.D. student in Computer and Information Science at the <strong>University of California, Davis</strong>. 
-                    My name is pronounced "Ray Tsai" (you can also call me Yanson, 言燊).
+            <div class="bio">
+                <div class="bar"></div>
+
+                <p>
+                I'm a second-year Ph.D. student in Computer and Information Science at the University of California, Davis.
+                The pronunciation of my name is “Ray Tsai” (you can also call me Yanson, 言燊).
                 </p>
 
-                <div class="research-focus">
-                    <p>
-                        My research focuses on improving the <span class="highlight">reliability of multimodal large language models (MLLMs)</span>. 
-                        I work on understanding why multimodal models fail, how humans evaluate multimodal outputs, and how to align models to behave more robustly and predictably.
-                    </p>
-                </div>
+                <p>
+                My research focuses on improving the <b>reliability of multimodal large language models (MLLMs)</b>.
+                I work on understanding why multimodal models fail, how humans evaluate multimodal outputs,
+                and how to align models to behave more robustly and predictably.
+                </p>
 
-                <h3>Research Interests</h3>
-                <ul class="interest-list">
-                    <li>
-                        <strong>Multimodal Human Preference Alignment</strong>
-                        <p>Understanding how humans evaluate multimodal outputs and aligning models with nuanced cross-modal preferences.</p>
-                    </li>
-                    <li>
-                        <strong>Robustness on Multimodal Alignment</strong>
-                        <p>Diagnosing and mitigating failure modes in multimodal alignment stage.</p>
-                    </li>
-                    <li>
-                        <strong>Visual Reasoning & Evaluation</strong>
-                        <p>Improving MLLMs' ability to understand, reason over, and generate visual information.</p>
-                    </li>
+                <p>More specifically, my interests include:</p>
+
+                <ul class="bio-list">
+                <li>
+                    <b>Multimodal Human Preference Alignment</b> — understanding how humans evaluate multimodal
+                    outputs and aligning models with nuanced cross-modal preferences.
+                </li>
+                <li>
+                    <b>Robustness on Multimodal Alignment</b> — diagnosing and mitigating failure modes in
+                    multimodal alignment stage.
+                </li>
+                <li>
+                    <b>Visual Reasoning &amp; Evaluation</b> — improving MLLMs' ability to understand, reason over,
+                    and generate visual information, and designing evaluation methods that capture the limits of
+                    these capabilities.
+                </li>
                 </ul>
 
-                <div class="vision-statement">
-                    <p>
-                        Across these directions, my broader goal is to make multimodal learning more <strong>robust, trustworthy, and aligned with human expectations</strong>.
-                    </p>
-                </div>
-                
-                <p class="footnote">
-                    I am an enthusiastic fan of Synthetic Ascension<sup id="ref1"><a href="#fn1">1</a></sup>.
+                <p>
+                Across these directions, my broader goal is to make multimodal learning more
+                <b>robust, trustworthy, and aligned with human expectations</b>.
                 </p>
-            </section>
-        </div>
+
+                <p>
+                I am an enthusiastic fan of Synthetic Ascension<sup id="ref1"><a href="#fn1">1</a></sup>.
+                </p>
+
+                <p>Email : [first name][last name] [at] [my phd school] [dot] edu</p>
+
+                <div class="bar"></div>
+            </div>
+        </section>
 
         <section id="pubs" class="fullbleed pubs-full" data-include="/sections/publications.html"></section>
         <section id="experiences" data-include="/sections/experiences.html"></section>
