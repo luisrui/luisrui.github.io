@@ -183,23 +183,39 @@ html{ scroll-behavior:smooth; }
 }
 
 /* 右侧 item：卡片在右边，日期在竖线右侧 */
-.timeline-item.right{
-  justify-content:flex-end;
-}
-.timeline-item.right .timeline-card{
-  margin-right:60px;
-}
 .timeline-item.right .timeline-date{
   right:calc(50% + 24px);
 }
 
-/* 左侧 item：卡片在左边，日期在竖线左侧 */
-.timeline-item.left{
-  justify-content:flex-start;
+/* 让每个节点以中线为中心排布 */
+.timeline-item{
+  position:relative;
+  display:flex;
+  justify-content:center;  /* 关键：先把内容都放到中线附近 */
+  margin:26px 0;
 }
+
+/* 卡片宽度两边各占一半，预留一点给中线和间距 */
+.timeline-card{
+  width:45%;
+  max-width:none;
+}
+
+/* 左边的卡片：向左偏移一点，让右边缘离中线固定距离 */
 .timeline-item.left .timeline-card{
-  margin-left:60px;
+  margin-right:auto;
+  margin-left:0;
+  transform:translateX(-40px);  /* 调这个数可以微调离中线的距离 */
 }
+
+/* 右边的卡片：向右偏移一点，让左边缘离中线固定距离 */
+.timeline-item.right .timeline-card{
+  margin-left:auto;
+  margin-right:0;
+  transform:translateX(40px);
+}
+
+/* 左侧 item：卡片在左边，日期在竖线左侧 */
 .timeline-item.left .timeline-date{
   left:calc(50% + 24px);
 }
