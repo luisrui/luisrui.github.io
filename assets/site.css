@@ -1,17 +1,18 @@
-:root {
-  --nav:#1c4257;        /* 顶部深蓝条 */
-  --bg:#F6BF7F;         /* 全页淡黄背景 */
-  --ink:#183446;        /* 主文字深蓝灰 */
-  --muted:#355E8A;      /* 次要文字 */
-  --accent:#1F6FEB;     /* 链接蓝 */
-  --accent-yellow:#FFD7A3; /* 名字/下划线淡黄 */
-  --panel:#FFDDB3;      /* 浅橙卡片（用于项目/联系等） */
+:root{
+  --nav:#1c4257;
+  --bg:#F6BF7F;
+  --ink:#183446;
+  --muted:#355E8A;
+  --accent:#1F6FEB;
+  --accent-yellow:#FFD7A3;
+  --panel:#FFDDB3;
   --maxw:1100px;
   --radius:18px;
 }
 
 *{ box-sizing:border-box; }
-html,body{ margin:0; }
+html,body{ margin:0; padding:0; }
+html{ scroll-behavior:smooth; }
 
 body{
   font:18px/1.7 "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
@@ -19,177 +20,268 @@ body{
   background:var(--bg);
 }
 
-a{ color:var(--accent); text-decoration-thickness:2px; text-underline-offset:2px; }
+a{
+  color:var(--accent);
+  text-decoration-thickness:2px;
+  text-underline-offset:2px;
+}
 
-/* 顶部蓝色bar */
-header{ position:sticky; top:0; z-index:10; background:var(--nav); }
+/* ===== Header / Nav ===== */
+header{
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:var(--nav);
+}
+
 .nav{
-  max-width:var(--maxw); margin:0 auto;
-  display:flex; align-items:center; gap:20px; padding:22px 24px;
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:22px 24px;
+  display:flex;
+  align-items:center;
+  gap:20px;
 }
+
 .brand{
-  color:var(--accent-yellow); font-weight:700; font-size:28px; letter-spacing:.4px;
-  text-decoration:none; border-bottom:4px solid var(--accent-yellow); padding-bottom:2px;
+  color:var(--accent-yellow);
+  font-weight:700;
+  font-size:28px;
+  letter-spacing:.4px;
+  text-decoration:none;
+  border-bottom:4px solid var(--accent-yellow);
+  padding-bottom:2px;
 }
+
 .spacer{ flex:1; }
-.nav a{ color:#E6EEFC; opacity:.9; text-decoration:none; }
+
+.nav a{
+  color:#E6EEFC;
+  opacity:.9;
+  text-decoration:none;
+}
 .nav a:hover{ opacity:1; }
 
-.wrap{ max-width:var(--maxw); margin:0 auto; padding:40px 24px 100px; }
+/* ===== Layout ===== */
+.wrap{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:40px 24px 100px;
+}
 
-/* 左图右文的 hero */
+section{ margin-top:48px; }
+
+h2{
+  font-size:24px;
+  margin:0 0 10px;
+}
+
+/* ===== Hero (Image + Bio) ===== */
 .hero{
   display:grid;
   grid-template-columns:360px 1fr;
   gap:40px;
-  align-items:center;   /* 和图片顶部对齐，而不是垂直居中 */
+  align-items:center;           /* ✅ 关键：右侧与图片垂直居中 */
   margin:56px 0 48px;
 }
+
 .hero img{
-  width:100%; height:auto; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,.18);
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:12px;
+  box-shadow:0 12px 40px rgba(0,0,0,.18);
 }
-.bio .bar{
-  width:min(520px,70%); height:5px; background:var(--nav);
-  border-radius:3px; margin:8px auto 22px;
-}
+
+/* Bio container: bar / body / bar */
 .bio{
+  display:grid;
+  grid-template-rows:auto 1fr auto;  /* bar / content / bar */
+  align-items:stretch;
   text-align:left;
+}
+
+.bio .bar{
+  width:min(520px,70%);
+  height:5px;
+  background:var(--nav);
+  border-radius:3px;
+  margin:8px auto 22px;
+}
+
+/* 只让正文区域“视觉居中” */
+.bio-body{
   display:flex;
   flex-direction:column;
-  justify-content:center;    /* ✅ 让文字块内部也更“居中感” */
+  justify-content:center;       /* ✅ 正文居中（bar 不参与） */
 }
-/* 段落的通用样式 */
+
 .bio p{
-  margin:18px 0;            /* 不用 auto，让它正常从顶部开始排 */
+  margin:16px 0;
   max-width:720px;
   font-size:18px;
   line-height:1.7;
 }
 
-/* 把第一段的上边距去掉，让它和图片顶对齐 */
-.bio p:first-of-type{
-  margin-top:0;
-}
-
-
-/* 列表：保持整体居中，但内容左对齐 */
+/* 可选：列表 */
 .bio-list{
-  display:inline-block;       /* 让它在 .bio 中居中 */
-  text-align:left;
   margin:8px 0 4px;
   padding-left:1.3em;
   max-width:720px;
   font-size:18px;
   line-height:1.6;
 }
-.bio-list li{
-  margin-bottom:6px;
-}
+.bio-list li{ margin-bottom:6px; }
 
-section{ margin-top:48px; }
-h2{ font-size:24px; margin:0 0 10px; }
-
+/* ===== Cards / Grids ===== */
 .card{
-  background:var(--panel); border:1px solid rgba(0,0,0,.06);
-  border-radius:var(--radius); padding:18px 20px;
+  background:var(--panel);
+  border:1px solid rgba(0,0,0,.06);
+  border-radius:var(--radius);
+  padding:18px 20px;
 }
+
 .grid{ display:grid; gap:14px; }
-.grid.cols-2{ grid-template-columns:repeat(2, minmax(0,1fr)); }
+.grid.cols-2{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
 
 .item h3{ margin:0 0 6px; font-size:18px; }
 .item p{ margin:0; color:#284d6f; }
-.meta{ display:flex; gap:10px; flex-wrap:wrap; margin-top:6px; font-size:13px; color:#284d6f; }
-.tag{ padding:2px 8px; background:rgba(0,0,0,.06); border-radius:999px; }
 
-footer{ color:#284d6f; margin-top:60px; text-align:center; }
-
-@media (max-width:780px){ .hero{ grid-template-columns:1fr; } }
-
-/* —— 通用：全宽区块（拉满左右） —— */
-.fullbleed{
-  position: relative;
-  width: 100vw;
-  left: 50%; right: 50%;
-  margin-left: -50vw; margin-right: -50vw;
+.meta{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:6px;
+  font-size:13px;
+  color:#284d6f;
 }
 
-/* —— 通用：居中的大标题（带下划线） —— */
+.tag{
+  padding:2px 8px;
+  background:rgba(0,0,0,.06);
+  border-radius:999px;
+}
+
+/* ===== Footer ===== */
+footer{
+  color:#284d6f;
+  margin-top:60px;
+  text-align:center;
+}
+
+/* ===== Fullbleed sections ===== */
+.fullbleed{
+  position:relative;
+  width:100vw;
+  left:50%;
+  right:50%;
+  margin-left:-50vw;
+  margin-right:-50vw;
+}
+
+/* Section title */
 .section-title{
   text-align:center;
-  font-size: clamp(36px, 5vw, 72px);
-  font-weight: 600;
-  letter-spacing: .5px;
-  margin: 0 0 18px;
+  font-size:clamp(36px, 5vw, 72px);
+  font-weight:600;
+  letter-spacing:.5px;
+  margin:0 0 18px;
 }
+
 .section-title::after{
   content:"";
   display:block;
   width:min(420px,40%);
   height:5px;
   margin:14px auto 0;
-  background: var(--ink);       /* 默认用正文色作横线 */
-  opacity:.9; border-radius:3px;
+  background:var(--ink);
+  opacity:.9;
+  border-radius:3px;
 }
 
-/* ===== Publications：全宽深蓝背景 + 居中大标题 ===== */
-.pubs-full{ background:#1c4257; color:#f7e8d0; padding: 80px 0; }
-.pubs-full .container{ max-width:var(--maxw); margin:0 auto; padding:0 24px; }
+/* ===== Publications (dark full width) ===== */
+.pubs-full{
+  background:#1c4257;
+  color:#f7e8d0;
+  padding:80px 0;
+}
+.pubs-full .container{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:0 24px;
+}
 .pubs-full .section-title{ color:#f7e8d0; }
 .pubs-full .section-title::after{ background:#f7e8d0; }
-.pubs-full a{ color:#d7f0ff; text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:3px; }
-.pubs-full .role, .pubs-full .authors .me{ color:#FF9F1C; font-weight:800; }
-.pubs-full hr{ border:none; border-top:4px solid rgba(247,232,208,.9); margin:36px 0; }
+.pubs-full a{
+  color:#d7f0ff;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  text-decoration-thickness:3px;
+}
+.pubs-full .role, .pubs-full .authors .me{
+  color:#FF9F1C;
+  font-weight:800;
+}
+.pubs-full hr{
+  border:none;
+  border-top:4px solid rgba(247,232,208,.9);
+  margin:36px 0;
+}
 
-/* ===== Experiences + Talks：回归主背景，只居中标题 ===== */
-/* 不需要额外背景色，保持页面的 --bg 即可 */
-/* 给这两个区块的标题换成浅深蓝横线更搭配： */
-
-/* ===== Contact：全宽深蓝背景 + 卡片 ===== */
-.contact-full{ background:#1c4257; color:#f7e8d0; padding: 64px 0; }
-.contact-full .container{ max-width:var(--maxw); margin:0 auto; padding:0 24px; }
+/* ===== Contact (dark full width) ===== */
+.contact-full{
+  background:#1c4257;
+  color:#f7e8d0;
+  padding:64px 0;
+}
+.contact-full .container{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:0 24px;
+}
 .contact-full .section-title{ color:#f7e8d0; }
 .contact-full .section-title::after{ background:#f7e8d0; }
-.contact-full a{ color:#d7f0ff; text-decoration:underline; text-underline-offset:3px; }
+.contact-full a{
+  color:#d7f0ff;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
 .contact-full .card{
-  background: rgba(255,255,255,.08);         /* 蓝底上的半透明卡片 */
-  border: 1px solid rgba(255,255,255,.18);
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.18);
   color:#f7f5ee;
 }
 
-/* 可选：整站平滑滚动 */
-html{ scroll-behavior:smooth; }
-
 /* ===== Timeline ===== */
-
 .timeline{
   position:relative;
   margin-top:30px;
   padding:10px 0 10px;
 }
 
-/* 中央竖线 */
 .timeline::before{
   content:"";
   position:absolute;
-  inset:0 auto;
   left:50%;
+  top:0;
+  bottom:0;
   transform:translateX(-50%);
   width:4px;
   background:rgba(0,0,0,.08);
   border-radius:999px;
 }
 
-/* 每个节点 */
 .timeline-item{
   position:relative;
   display:flex;
+  justify-content:center;
   margin:26px 0;
 }
 
-/* 圆点 */
 .timeline-dot{
   position:absolute;
   left:50%;
+  top:8px;
   transform:translateX(-50%);
   width:18px;
   height:18px;
@@ -199,7 +291,6 @@ html{ scroll-behavior:smooth; }
   box-shadow:0 0 0 4px rgba(0,0,0,.03);
 }
 
-/* 时间标签 */
 .timeline-date{
   position:absolute;
   top:-2px;
@@ -209,50 +300,29 @@ html{ scroll-behavior:smooth; }
   white-space:nowrap;
 }
 
-/* 卡片本体，复用 .card 的风格 */
-.timeline-card{
-  max-width:44%;
-}
-
-/* 右侧 item：卡片在右边，日期在竖线右侧 */
-.timeline-item.right .timeline-date{
-  right:calc(50% + 24px);
-}
-
-/* 让每个节点以中线为中心排布 */
-.timeline-item{
-  position:relative;
-  display:flex;
-  justify-content:center;  /* 关键：先把内容都放到中线附近 */
-  margin:26px 0;
-}
-
-/* 卡片宽度两边各占一半，预留一点给中线和间距 */
 .timeline-card{
   width:45%;
   max-width:none;
 }
 
-/* 左边的卡片：向左偏移一点，让右边缘离中线固定距离 */
 .timeline-item.left .timeline-card{
   margin-right:auto;
-  margin-left:0;
-  transform:translateX(-40px);  /* 调这个数可以微调离中线的距离 */
+  transform:translateX(-40px);
 }
 
-/* 右边的卡片：向右偏移一点，让左边缘离中线固定距离 */
 .timeline-item.right .timeline-card{
   margin-left:auto;
-  margin-right:0;
   transform:translateX(40px);
 }
 
-/* 左侧 item：卡片在左边，日期在竖线左侧 */
 .timeline-item.left .timeline-date{
   left:calc(50% + 24px);
 }
 
-/* 让时间线里的标题和原来卡片保持一致 */
+.timeline-item.right .timeline-date{
+  right:calc(50% + 24px);
+}
+
 .timeline-card h3{
   margin:0 0 6px;
   font-size:18px;
@@ -262,8 +332,13 @@ html{ scroll-behavior:smooth; }
   color:#284d6f;
 }
 
-/* 响应式：在窄屏上收成单列时间线 */
+/* ===== Responsive ===== */
 @media (max-width:780px){
+  .hero{
+    grid-template-columns:1fr;
+    align-items:start;
+  }
+
   .timeline::before{
     left:18px;
     transform:none;
@@ -276,8 +351,9 @@ html{ scroll-behavior:smooth; }
     margin:22px 0;
   }
   .timeline-card{
-    max-width:100%;
-    margin:0 0 0 46px !important; /* 覆盖左右布局 */
+    width:auto;
+    margin:0 0 0 46px !important;
+    transform:none !important;
   }
   .timeline-date{
     position:relative;
