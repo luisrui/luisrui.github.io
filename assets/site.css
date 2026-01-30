@@ -52,7 +52,12 @@ header{ position:sticky; top:0; z-index:10; background:var(--nav); }
   width:min(520px,70%); height:5px; background:var(--nav);
   border-radius:3px; margin:8px auto 22px;
 }
-.bio{ text-align:left; }
+.bio{
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;    /* ✅ 让文字块内部也更“居中感” */
+}
 /* 段落的通用样式 */
 .bio p{
   margin:18px 0;            /* 不用 auto，让它正常从顶部开始排 */
