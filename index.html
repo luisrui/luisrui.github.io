@@ -43,6 +43,7 @@
         <nav class="nav" aria-label="primary">
             <a class="brand" href="#home">Rui (Yanson) Cai</a>
             <span class="spacer"></span>
+            <a href="#news">News</a>
             <a href="#pubs">Publications</a>
             <a href="#experiences">Experiences</a>
             <a href="#talks">Talks</a>
@@ -87,6 +88,7 @@
             </div>
         </section>
 
+        <section id="news" data-include="/sections/news.html"></section>
         <section id="pubs" class="fullbleed pubs-full" data-include="/sections/publications.html"></section>
         <section id="experiences" data-include="/sections/experiences.html"></section>
         <section id="talks" data-include="/sections/talks.html"></section>
@@ -134,7 +136,24 @@
                 }
             }
         }
-        loadIncludes();
+        loadIncludes().then(setupNewsToggle);
+
+        function setupNewsToggle() {
+            const list = document.querySelector('.news-list');
+            const btn = document.querySelector('.news-toggle');
+            if (!list || !btn) return;
+            const VISIBLE = 6;
+            if (list.children.length <= VISIBLE) {
+                btn.style.display = 'none';
+                return;
+            }
+            list.classList.add('collapsed');
+            btn.addEventListener('click', () => {
+                const collapsed = list.classList.toggle('collapsed');
+                btn.textContent = collapsed ? 'Show more' : 'Show less';
+                btn.setAttribute('aria-expanded', String(!collapsed));
+            });
+        }
 
         // （可选）锚点平滑滚动
         document.querySelectorAll('a[href^="#"]').forEach(a => {
